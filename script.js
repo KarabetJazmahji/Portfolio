@@ -15,7 +15,7 @@ $(document).ready(function() {
     const f = document.getElementById("firstDot");
     f.addEventListener("animationend",()=>{
         $("#main-section").css("background", "url('/img/background.jpg') no-repeat center/cover");
-        $(".main-content").css("padding", "60vh 0 0 0");
+        $(".main-content").css("padding", "50vh 0 0 0");
         $(".dot").css("visibility", "hidden");
         $("#me").css("visibility", "visible");
         $(window).ready(function() {
