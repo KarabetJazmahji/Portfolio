@@ -49,7 +49,6 @@ span {
   margin: 20px 10px 0 0; }
   .nav-list a {
     margin: 0 1.2rem;
-    border-bottom: 2px transparent solid;
     transition: border-color 0.5s; }
     .nav-list a:hover {
       border-color: #1cb5e0; }
@@ -131,6 +130,8 @@ span {
   #about-section .move {
     animation: moveleft 3s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
     visibility: visible; }
+  #about-section a {
+    color: #1cb5e0; }
 
 @keyframes moveleft {
   0% {
@@ -143,6 +144,7 @@ span {
   color: #1cb5e0; }
 
 #skills-section {
+  min-height: 400px;
   width: 100%; }
   #skills-section h3 {
     text-align: center;
@@ -271,6 +273,15 @@ span {
     font-weight: 200;
     text-align: center;
     margin-top: 50px; }
+  #contact-section .fa-angle-double-up {
+    cursor: pointer;
+    position: relative;
+    text-align: center;
+    display: block;
+    margin: 10px auto;
+    font-size: 48px;
+    color: #1cb5e0;
+    padding-bottom: 20px; }
   #contact-section #social {
     margin-top: 5px;
     display: grid;

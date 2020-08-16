@@ -41,7 +41,6 @@ span{
 
     a{
         margin: 0 1.2rem;
-        border-bottom: 2px transparent solid;
         transition: border-color 0.5s;
 
     &:hover{
@@ -62,10 +61,6 @@ span{
 // Main Section
 // ------------------------------------------------------
 // ------------------------------------------------------
-// #main-section p{
-//     filter: invert(1) grayscale(1) contrast(9);
-// }
-
 .main-content{
     padding: 50vh 0px 0px 0px;
     text-align: center;
@@ -165,6 +160,10 @@ span{
         animation: moveleft 3s cubic-bezier(0.250,0.460,0.450,0.940) both;
         visibility: visible;
     }
+
+    a{
+        color: $main-color;
+    }
 }
 
 @keyframes moveleft {
@@ -186,6 +185,7 @@ span{
 // ------------------------------------------------------
 // ------------------------------------------------------
 #skills-section{
+    min-height: 400px;
     width: 100%;
     h3{
         text-align: center;
@@ -374,6 +374,17 @@ span{
         font-weight: 200;
         text-align: center;
         margin-top: 50px;
+    }
+
+    .fa-angle-double-up{   
+        cursor: pointer; 
+        position: relative;
+        text-align: center;
+        display: block;
+        margin: 10px auto;
+        font-size: 48px;
+        color: $main-color;
+        padding-bottom: 20px;
     }
 
     #social{

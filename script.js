@@ -7,6 +7,8 @@ var oskills = $("#o-skills");
 $(document).ready(function() {
     $("#me").css("visibility", "hidden");
     $("#main-section").css("background", "none");
+    $("#home").addClass("current");
+    $(".nav-list a:not(#home)").removeClass("current");
 
     const f = document.getElementById("firstDot");
     f.addEventListener("animationend",()=>{
@@ -26,25 +28,42 @@ $(document).ready(function() {
             }
         });
         
-    });
-    
+    }); 
      
     $(window).scroll(function() { 
-    var scrollTop = $(document).scrollTop();
+    const scrollTop = $(window).scrollTop();
+    
+    let offsetHome = $("#main-section").offset();
+    if(Math.trunc(scrollTop) >= Math.trunc(offsetHome.top) -400){
+        $("#home").addClass("current");
+        $(".nav-list a:not(#home)").removeClass("current");
+    }
 
-    var offsetAbout = $("#about-section").offset();
+    let offsetAbout = $("#about-section").offset();
     if(Math.trunc(scrollTop) >= Math.trunc(offsetAbout.top) -400){
+        $("#about").addClass("current");
+        $(".nav-list a:not(#about)").removeClass("current");
         $("#about-section > h3").addClass("move");   
     }
 
-    var offsetSkills = $("#skills-section").offset();
+    let offsetSkills = $("#skills-section").offset();
     if(Math.trunc(scrollTop) >= Math.trunc(offsetSkills.top) -400){
+        $("#skills").addClass("current");
+        $(".nav-list a:not(#skills)").removeClass("current");
         $("#skills-section > h3").addClass("move");   
     }
 
-    var offsetProjects = $("#projects-section").offset();
+    let offsetProjects = $("#projects-section").offset();
     if(Math.trunc(scrollTop) >= Math.trunc(offsetProjects.top) -400){
+        $("#projects").addClass("current");
+        $(".nav-list a:not(#projects)").removeClass("current");
         $("#projects-section > h3").addClass("move");   
+    }
+
+    let offsetContact = $("#contact-section").offset();
+    if(Math.trunc(scrollTop) >= Math.trunc(offsetContact.top) -400){
+        $("#contact").addClass("current");
+        $(".nav-list a:not(#contact)").removeClass("current");   
     }
 });
 });
@@ -65,9 +84,6 @@ $('.nav-list a').on('click' , function(event){
       );
 
       $(hash).find("h3").addClass("move");
-      $(this).addClass("current");
-      $('a').not(this).removeClass("current");
-
   }
 });
 
@@ -139,7 +155,7 @@ bskills.click(function(){
 });
 
 
-$("#d-skills").click(function(){
+dskills.click(function(){
     var classAttr = dskills.attr("class");
     if(classAttr === "fas fa-plus"){
         dskills.removeClass("fas fa-plus");
@@ -157,7 +173,7 @@ $("#d-skills").click(function(){
     }
 });
 
-$("#o-skills").click(function(){
+oskills.click(function(){
     var classAttr = oskills.attr("class");
     if(classAttr === "fas fa-plus"){
         oskills.removeClass("fas fa-plus");
@@ -196,6 +212,7 @@ $(".icon").click(function(){
 
 $(".nav-list a").not(".icon").click(function(){
     $(".nav-list").removeClass("smallScreen");
+    $(".icon").html("<i class='fa fa-bars'></i>");
 });
 
 
