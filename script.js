@@ -22,7 +22,6 @@ $(document).ready(function() {
             var width = $(window).width();
             if (width < 1500){
                 $("#main-section").css("background", "url('/img/background.jpg') no-repeat center/cover");
-                $(".main-content").css("padding", "60vh 0 0 0");
             }
             if (width < 768){
                 $("#main-section").css("background", "url('/img/backgroundSmall.jpg') no-repeat center/cover");
