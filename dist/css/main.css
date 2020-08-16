@@ -217,17 +217,17 @@ span {
   gap: 25px;
   margin-top: 20px; }
   #projects-grid #Recipes {
-    background: url("../../img/Recipes.JPG") no-repeat center center/cover; }
+    background: url("../../img/Recipes.JPG") no-repeat center center/contain; }
   #projects-grid #News {
-    background: url("../../img/Capture7.JPG") no-repeat center center/cover; }
+    background: url("../../img/LiveNews.JPG") no-repeat center center/contain; }
   #projects-grid #Olearning {
-    background: url("../../img/Capture6.JPG") no-repeat center center/cover; }
+    background: url("../../img/Olearning.JPG") no-repeat center center/contain; }
   #projects-grid #BlogPage {
-    background: url("../../img/BlogPage.png") no-repeat center center/cover; }
+    background: url("../../img/BlogPage.png") no-repeat center center/contain; }
   #projects-grid #Kofta {
-    background: url("../../img/Kofta.png") no-repeat center center/cover; }
+    background: url("../../img/Kofta.png") no-repeat center center/contain; }
   #projects-grid #GaryElectric {
-    background: url("../../img/GaryElectric.png") no-repeat center center/cover; }
+    background: url("../../img/GaryElectric.png") no-repeat center center/contain; }
   #projects-grid p, #projects-grid a {
     visibility: hidden;
     text-align: center;
