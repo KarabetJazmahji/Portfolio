@@ -3,10 +3,6 @@ var bskills = $("#b-skills");
 var dskills = $("#d-skills");
 var oskills = $("#o-skills");
 
-$(window).ready(function() {
-    var width = $(window).width();
-    console.log(width);
-})
 
 $(document).ready(function() {
     $("#me").css("visibility", "hidden");
