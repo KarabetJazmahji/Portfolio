@@ -3,15 +3,6 @@ var bskills = $("#b-skills");
 var dskills = $("#d-skills");
 var oskills = $("#o-skills");
 
-$(window).ready(function() {
-    var width = $(window).width();
-    if (width > 1500){
-        $("#main-section").css("background", "url('/img/backgroundLarge.jpg') no-repeat center/cover");
-        $(".main-content").css("padding", "60vh 0px 0px 0px");
-    }
-  });
-
-
 $(document).ready(function() {
     $("#me").css("visibility", "hidden");
     $("#main-section").css("background", "none");
@@ -21,6 +12,13 @@ $(document).ready(function() {
         $("#main-section").css("background", "url('/img/background.jpg') no-repeat center/cover");
         $(".dot").css("visibility", "hidden");
         $("#me").css("visibility", "visible");
+        $(window).ready(function() {
+            var width = $(window).width();
+            if (width > 1500){
+                $("#main-section").css("background", "url('/img/backgroundLarge.jpg') no-repeat center/cover");
+                $(".main-content").css("padding", "60vh 0px 0px 0px");
+            }
+        });
         
     });
     
