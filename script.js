@@ -21,6 +21,7 @@ $(document).ready(function() {
             if (width < 768){
                 $("#main-section").css("background", "url('/img/backgroundSmall.jpg') no-repeat center/cover");
                 $(".main-content").css("padding", "40vh 0 0 0");
+                $(".works").append("<hr/>");
             }
         });
         
