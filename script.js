@@ -3,20 +3,25 @@ var bskills = $("#b-skills");
 var dskills = $("#d-skills");
 var oskills = $("#o-skills");
 
+$(window).ready(function() {
+    var width = $(window).width();
+    console.log(width);
+})
+
 $(document).ready(function() {
     $("#me").css("visibility", "hidden");
     $("#main-section").css("background", "none");
 
     const f = document.getElementById("firstDot");
     f.addEventListener("animationend",()=>{
-        $("#main-section").css("background", "url('/img/backgroundLarge.jpg') no-repeat center/cover");
+        $("#main-section").css("background", "url('/img/background.jpg') no-repeat center/cover");
         $(".main-content").css("padding", "60vh 0 0 0");
         $(".dot").css("visibility", "hidden");
         $("#me").css("visibility", "visible");
         $(window).ready(function() {
             var width = $(window).width();
             if (width < 1500){
-                $("#main-section").css("background", "url('/img/backgroundLarge.jpg') no-repeat center/cover");
+                $("#main-section").css("background", "url('/img/background.jpg') no-repeat center/cover");
                 $(".main-content").css("padding", "60vh 0 0 0");
             }
             if (width < 768){
