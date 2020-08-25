@@ -286,6 +286,10 @@ span{
     gap: 25px;
     margin-top: 20px;
 
+    #Covid{
+        background: url("../../img/Covid.JPG") no-repeat center center/contain;
+    }
+
     #Recipes{
         background: url("../../img/Recipes.JPG") no-repeat center center/contain;
     }
@@ -324,7 +328,7 @@ span{
 
     
 
-    #Recipes,#News,#Olearning,#BlogPage,#Kofta,#GaryElectric{
+    #Recipes,#News,#Olearning,#BlogPage,#Kofta,#GaryElectric,#Covid{
         transition: transform 2s;
 
         &:hover{

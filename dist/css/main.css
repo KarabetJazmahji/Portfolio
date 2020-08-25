@@ -218,6 +218,8 @@ span {
   justify-content: center;
   gap: 25px;
   margin-top: 20px; }
+  #projects-grid #Covid {
+    background: url("../../img/Covid.JPG") no-repeat center center/contain; }
   #projects-grid #Recipes {
     background: url("../../img/Recipes.JPG") no-repeat center center/contain; }
   #projects-grid #News {
@@ -241,12 +243,12 @@ span {
     margin-bottom: 100px; }
   #projects-grid a:hover {
     color: turquoise; }
-  #projects-grid #Recipes, #projects-grid #News, #projects-grid #Olearning, #projects-grid #BlogPage, #projects-grid #Kofta, #projects-grid #GaryElectric {
+  #projects-grid #Recipes, #projects-grid #News, #projects-grid #Olearning, #projects-grid #BlogPage, #projects-grid #Kofta, #projects-grid #GaryElectric, #projects-grid #Covid {
     transition: transform 2s; }
-    #projects-grid #Recipes:hover, #projects-grid #News:hover, #projects-grid #Olearning:hover, #projects-grid #BlogPage:hover, #projects-grid #Kofta:hover, #projects-grid #GaryElectric:hover {
+    #projects-grid #Recipes:hover, #projects-grid #News:hover, #projects-grid #Olearning:hover, #projects-grid #BlogPage:hover, #projects-grid #Kofta:hover, #projects-grid #GaryElectric:hover, #projects-grid #Covid:hover {
       transform: scale(1.05);
       background: none; }
-      #projects-grid #Recipes:hover p, #projects-grid #Recipes:hover a, #projects-grid #News:hover p, #projects-grid #News:hover a, #projects-grid #Olearning:hover p, #projects-grid #Olearning:hover a, #projects-grid #BlogPage:hover p, #projects-grid #BlogPage:hover a, #projects-grid #Kofta:hover p, #projects-grid #Kofta:hover a, #projects-grid #GaryElectric:hover p, #projects-grid #GaryElectric:hover a {
+      #projects-grid #Recipes:hover p, #projects-grid #Recipes:hover a, #projects-grid #News:hover p, #projects-grid #News:hover a, #projects-grid #Olearning:hover p, #projects-grid #Olearning:hover a, #projects-grid #BlogPage:hover p, #projects-grid #BlogPage:hover a, #projects-grid #Kofta:hover p, #projects-grid #Kofta:hover a, #projects-grid #GaryElectric:hover p, #projects-grid #GaryElectric:hover a, #projects-grid #Covid:hover p, #projects-grid #Covid:hover a {
         visibility: visible; }
 
 #contact-section {
