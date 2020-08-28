@@ -279,6 +279,18 @@ span{
     }
 }
 
+.containers{
+  padding: 0rem 2rem;
+  border-width: 3px;
+  border-style: solid;
+  border-image: 
+    linear-gradient(
+      to top, 
+      $main-color, 
+      rgba(0, 0, 0, 0)
+    ) 1 50%;
+}
+
 #projects-grid{
     display: grid;
     grid-template-columns: repeat(3,300px);
@@ -300,7 +312,7 @@ span{
         background: url("../../img/Olearning.JPG") no-repeat center center/contain;
     }
     #BlogPage{
-        background: url("../../img/BlogPage.png") no-repeat center center/contain;
+        background: url("../../img/BlogPage.JPG") no-repeat center center/contain;
     }
     #Kofta{
         background: url("../../img/Kofta.png") no-repeat center center/contain;
@@ -313,17 +325,20 @@ span{
         visibility: hidden;
         text-align: center;
         display: block;
-        color: black;
-        margin-top: 100px;
+        color: white;
+        margin-top: 30px;
     }
 
     a{
-        margin-top: 10px;
-        margin-bottom: 100px;
+        display: block;
+        width: 90%;
+        margin: 40px auto;
+        border: 1px solid white;
     }
 
     a:hover{
-        color: turquoise;
+        background: turquoise;
+        border: none;
     }
 
     
@@ -333,7 +348,7 @@ span{
 
         &:hover{
             transform: scale(1.05);
-            background: none;
+            background: #252934;
 
             p,a{
                 visibility: visible;

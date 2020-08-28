@@ -212,6 +212,12 @@ span {
     animation: moveleft 3s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
     visibility: visible; }
 
+.containers {
+  padding: 0rem 2rem;
+  border-width: 3px;
+  border-style: solid;
+  border-image: linear-gradient(to top, #1cb5e0, rgba(0, 0, 0, 0)) 1 50%; }
+
 #projects-grid {
   display: grid;
   grid-template-columns: repeat(3, 300px);
@@ -227,7 +233,7 @@ span {
   #projects-grid #Olearning {
     background: url("../../img/Olearning.JPG") no-repeat center center/contain; }
   #projects-grid #BlogPage {
-    background: url("../../img/BlogPage.png") no-repeat center center/contain; }
+    background: url("../../img/BlogPage.JPG") no-repeat center center/contain; }
   #projects-grid #Kofta {
     background: url("../../img/Kofta.png") no-repeat center center/contain; }
   #projects-grid #GaryElectric {
@@ -236,18 +242,21 @@ span {
     visibility: hidden;
     text-align: center;
     display: block;
-    color: black;
-    margin-top: 100px; }
+    color: white;
+    margin-top: 30px; }
   #projects-grid a {
-    margin-top: 10px;
-    margin-bottom: 100px; }
+    display: block;
+    width: 90%;
+    margin: 40px auto;
+    border: 1px solid white; }
   #projects-grid a:hover {
-    color: turquoise; }
+    background: turquoise;
+    border: none; }
   #projects-grid #Recipes, #projects-grid #News, #projects-grid #Olearning, #projects-grid #BlogPage, #projects-grid #Kofta, #projects-grid #GaryElectric, #projects-grid #Covid {
     transition: transform 2s; }
     #projects-grid #Recipes:hover, #projects-grid #News:hover, #projects-grid #Olearning:hover, #projects-grid #BlogPage:hover, #projects-grid #Kofta:hover, #projects-grid #GaryElectric:hover, #projects-grid #Covid:hover {
       transform: scale(1.05);
-      background: none; }
+      background: #252934; }
       #projects-grid #Recipes:hover p, #projects-grid #Recipes:hover a, #projects-grid #News:hover p, #projects-grid #News:hover a, #projects-grid #Olearning:hover p, #projects-grid #Olearning:hover a, #projects-grid #BlogPage:hover p, #projects-grid #BlogPage:hover a, #projects-grid #Kofta:hover p, #projects-grid #Kofta:hover a, #projects-grid #GaryElectric:hover p, #projects-grid #GaryElectric:hover a, #projects-grid #Covid:hover p, #projects-grid #Covid:hover a {
         visibility: visible; }
 
