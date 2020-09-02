@@ -43,7 +43,8 @@ span {
   padding-bottom: 10px;
   width: 100%;
   background-color: #252934;
-  z-index: 1; }
+  z-index: 1;
+  border-bottom: 3px solid #45c9ee; }
 
 .nav-list {
   margin: 20px 10px 0 0; }
