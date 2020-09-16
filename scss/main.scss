@@ -158,7 +158,7 @@ span{
         visibility: hidden;
     }
     .move{
-        animation: moveleft 3s cubic-bezier(0.250,0.460,0.450,0.940) both;
+        animation: moveleft 2s cubic-bezier(0.250,0.460,0.450,0.940) both;
         visibility: visible;
     }
 
@@ -194,7 +194,7 @@ span{
         visibility: hidden;
     }
     .move{
-        animation: moveright 3s cubic-bezier(0.250,0.460,0.450,0.940) both;
+        animation: moveright 2s cubic-bezier(0.250,0.460,0.450,0.940) both;
         visibility: visible;
     }
 }
@@ -275,7 +275,7 @@ span{
         visibility: hidden;
     }
     .move{
-        animation: moveleft 3s cubic-bezier(0.250,0.460,0.450,0.940) both;
+        animation: moveleft 2s cubic-bezier(0.250,0.460,0.450,0.940) both;
         visibility: visible;
     }
 }
@@ -485,6 +485,14 @@ span{
 
     #skills-grid{
         grid-template-columns: 1fr;
+    }
+
+    #skills-grid div{
+        margin-top: 30px;
+    }
+
+    #skills-grid i{
+        margin: 10px auto 30px auto;
     }
 
     #skills-grid img{

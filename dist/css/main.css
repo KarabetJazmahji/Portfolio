@@ -129,7 +129,7 @@ span {
     font-size: 4rem;
     visibility: hidden; }
   #about-section .move {
-    animation: moveleft 3s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+    animation: moveleft 2s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
     visibility: visible; }
   #about-section a {
     color: #1cb5e0; }
@@ -152,7 +152,7 @@ span {
     font-size: 4rem;
     visibility: hidden; }
   #skills-section .move {
-    animation: moveright 3s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+    animation: moveright 2s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
     visibility: visible; }
 
 @keyframes moveright {
@@ -210,7 +210,7 @@ span {
     font-size: 4rem;
     visibility: hidden; }
   #projects-section .move {
-    animation: moveleft 3s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+    animation: moveleft 2s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
     visibility: visible; }
 
 .containers {
@@ -349,6 +349,10 @@ span {
     grid-template-columns: 300px; }
   #skills-grid {
     grid-template-columns: 1fr; }
+  #skills-grid div {
+    margin-top: 30px; }
+  #skills-grid i {
+    margin: 10px auto 30px auto; }
   #skills-grid img {
     width: 30%; }
   #projects-grid div {

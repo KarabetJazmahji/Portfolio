@@ -33,34 +33,36 @@ $(document).ready(function() {
     const scrollTop = $(window).scrollTop();
     
     let offsetHome = $("#main-section").offset();
-    if(Math.trunc(scrollTop) >= Math.trunc(offsetHome.top) -400){
+    if(Math.trunc(scrollTop) >= Math.trunc(offsetHome.top) - 600){
         $("#home").addClass("current");
         $(".nav-list a:not(#home)").removeClass("current");
     }
 
     let offsetAbout = $("#about-section").offset();
-    if(Math.trunc(scrollTop) >= Math.trunc(offsetAbout.top) -400){
+    if(Math.trunc(scrollTop) >= Math.trunc(offsetAbout.top) - 600){
         $("#about").addClass("current");
         $(".nav-list a:not(#about)").removeClass("current");
         $("#about-section > h3").addClass("move");   
     }
 
     let offsetSkills = $("#skills-section").offset();
-    if(Math.trunc(scrollTop) >= Math.trunc(offsetSkills.top) -400){
+    console.log(Math.trunc(scrollTop));
+    console.log(Math.trunc(offsetSkills.top));
+    if(Math.trunc(scrollTop) >= Math.trunc(offsetSkills.top) - 800){
         $("#skills").addClass("current");
         $(".nav-list a:not(#skills)").removeClass("current");
         $("#skills-section > h3").addClass("move");   
     }
 
     let offsetProjects = $("#projects-section").offset();
-    if(Math.trunc(scrollTop) >= Math.trunc(offsetProjects.top) -400){
+    if(Math.trunc(scrollTop) >= Math.trunc(offsetProjects.top) - 600){
         $("#projects").addClass("current");
         $(".nav-list a:not(#projects)").removeClass("current");
         $("#projects-section > h3").addClass("move");   
     }
 
     let offsetContact = $("#contact-section").offset();
-    if(Math.trunc(scrollTop) >= Math.trunc(offsetContact.top) -400){
+    if(Math.trunc(scrollTop) >= Math.trunc(offsetContact.top) - 600){
         $("#contact").addClass("current");
         $(".nav-list a:not(#contact)").removeClass("current");   
     }
@@ -89,7 +91,7 @@ $('.nav-list a').on('click' , function(event){
 
 // https://www.w3schools.com/howto/howto_js_typewriter.asp
 var i = 0;
-var w1 = 'I am a Toronto based MERN stack developer'; 
+var w1 = 'I am Toronto based MERN stack developer'; 
 var w2 = "I like to make complex things look simple"
 var speed = 100;
 
@@ -153,7 +155,6 @@ bskills.click(function(){
     }
 });
 
-
 dskills.click(function(){
     var classAttr = dskills.attr("class");
     if(classAttr === "fas fa-plus"){
@@ -181,19 +182,19 @@ oskills.click(function(){
         $("#o-skill2").fadeIn(2000);
         $("#o-skill3").fadeIn(3000);
         $("#o-skill4").fadeIn(4000);
+        $("#o-skill5").fadeIn(5000);
     }
 
     if(classAttr === "fas fa-minus"){
         oskills.removeClass("fas fa-minus");
         oskills.addClass("fas fa-plus");
-        $("#o-skill1").fadeOut(4000);
-        $("#o-skill2").fadeOut(3000);
-        $("#o-skill3").fadeOut(2000);
-        $("#o-skill4").fadeOut(1000);
+        $("#o-skill1").fadeOut(5000);
+        $("#o-skill2").fadeOut(4000);
+        $("#o-skill3").fadeOut(3000);
+        $("#o-skill4").fadeOut(2000);
+        $("#o-skill5").fadeOut(1000);
     }
 });
-
-
 
 
 
