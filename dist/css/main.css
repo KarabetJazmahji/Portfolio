@@ -237,8 +237,8 @@ span {
     background: url("../../img/BlogPage.JPG") no-repeat center center/contain; }
   #projects-grid #Kofta {
     background: url("../../img/Kofta.png") no-repeat center center/contain; }
-  #projects-grid #GaryElectric {
-    background: url("../../img/GaryElectric.png") no-repeat center center/contain; }
+  #projects-grid #Electric {
+    background: url("../../img/Electric.JPG") no-repeat center center/contain; }
   #projects-grid p, #projects-grid a {
     visibility: hidden;
     text-align: center;
@@ -253,12 +253,12 @@ span {
   #projects-grid a:hover {
     background: turquoise;
     border: none; }
-  #projects-grid #Recipes, #projects-grid #News, #projects-grid #Olearning, #projects-grid #BlogPage, #projects-grid #Kofta, #projects-grid #GaryElectric, #projects-grid #Covid {
+  #projects-grid #Recipes, #projects-grid #News, #projects-grid #Olearning, #projects-grid #BlogPage, #projects-grid #Kofta, #projects-grid #Electric, #projects-grid #Covid {
     transition: transform 2s; }
-    #projects-grid #Recipes:hover, #projects-grid #News:hover, #projects-grid #Olearning:hover, #projects-grid #BlogPage:hover, #projects-grid #Kofta:hover, #projects-grid #GaryElectric:hover, #projects-grid #Covid:hover {
+    #projects-grid #Recipes:hover, #projects-grid #News:hover, #projects-grid #Olearning:hover, #projects-grid #BlogPage:hover, #projects-grid #Kofta:hover, #projects-grid #Electric:hover, #projects-grid #Covid:hover {
       transform: scale(1.05);
       background: #252934; }
-      #projects-grid #Recipes:hover p, #projects-grid #Recipes:hover a, #projects-grid #News:hover p, #projects-grid #News:hover a, #projects-grid #Olearning:hover p, #projects-grid #Olearning:hover a, #projects-grid #BlogPage:hover p, #projects-grid #BlogPage:hover a, #projects-grid #Kofta:hover p, #projects-grid #Kofta:hover a, #projects-grid #GaryElectric:hover p, #projects-grid #GaryElectric:hover a, #projects-grid #Covid:hover p, #projects-grid #Covid:hover a {
+      #projects-grid #Recipes:hover p, #projects-grid #Recipes:hover a, #projects-grid #News:hover p, #projects-grid #News:hover a, #projects-grid #Olearning:hover p, #projects-grid #Olearning:hover a, #projects-grid #BlogPage:hover p, #projects-grid #BlogPage:hover a, #projects-grid #Kofta:hover p, #projects-grid #Kofta:hover a, #projects-grid #Electric:hover p, #projects-grid #Electric:hover a, #projects-grid #Covid:hover p, #projects-grid #Covid:hover a {
         visibility: visible; }
 
 #contact-section {
