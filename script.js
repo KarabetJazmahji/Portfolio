@@ -207,7 +207,6 @@ $(".icon").click(function(){
     }
     else
     $(".icon").html("<i class='fa fa-bars'></i>");
-
 });
 
 $(".nav-list a").not(".icon").click(function(){

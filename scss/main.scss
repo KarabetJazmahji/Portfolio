@@ -318,8 +318,8 @@ span{
     #Kofta{
         background: url("../../img/Kofta.png") no-repeat center center/contain;
     }
-    #GaryElectric{
-        background: url("../../img/GaryElectric.png") no-repeat center center/contain;
+    #Electric{
+        background: url("../../img/Electric.JPG") no-repeat center center/contain;
     }
 
     p,a{
@@ -344,7 +344,7 @@ span{
 
     
 
-    #Recipes,#News,#Olearning,#BlogPage,#Kofta,#GaryElectric,#Covid{
+    #Recipes,#News,#Olearning,#BlogPage,#Kofta,#Electric,#Covid{
         transition: transform 2s;
 
         &:hover{
