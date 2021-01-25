@@ -183,16 +183,19 @@ oskills.click(function(){
         $("#o-skill3").fadeIn(3000);
         $("#o-skill4").fadeIn(4000);
         $("#o-skill5").fadeIn(5000);
+        $("#o-skill6").fadeIn(6000);
     }
 
     if(classAttr === "fas fa-minus"){
         oskills.removeClass("fas fa-minus");
         oskills.addClass("fas fa-plus");
-        $("#o-skill1").fadeOut(5000);
-        $("#o-skill2").fadeOut(4000);
-        $("#o-skill3").fadeOut(3000);
-        $("#o-skill4").fadeOut(2000);
-        $("#o-skill5").fadeOut(1000);
+        $("#o-skill1").fadeOut(6000);
+        $("#o-skill2").fadeOut(5000);
+        $("#o-skill3").fadeOut(4000);
+        $("#o-skill4").fadeOut(3000);
+        $("#o-skill5").fadeOut(2000);
+        $("#o-skill6").fadeOut(1000);
+
     }
 });
 
