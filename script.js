@@ -111,25 +111,25 @@ fskills.click(function(){
     if(classAttr === "fas fa-plus"){
         fskills.removeClass("fas fa-plus");
         fskills.addClass("fas fa-minus");
-        $("#f-skill1").fadeIn(1000);
-        $("#f-skill2").fadeIn(2000);
-        $("#f-skill3").fadeIn(3000);
-        $("#f-skill4").fadeIn(4000);
-        $("#f-skill5").fadeIn(5000);
-        $("#f-skill6").fadeIn(6000);
-        $("#f-skill7").fadeIn(7000);
+        $("#f-skill1").fadeIn(500);
+        $("#f-skill2").fadeIn(1000);
+        $("#f-skill3").fadeIn(1500);
+        $("#f-skill4").fadeIn(2000);
+        $("#f-skill5").fadeIn(2500);
+        $("#f-skill6").fadeIn(3000);
+        $("#f-skill7").fadeIn(3500);
     }
 
     if(classAttr === "fas fa-minus"){
         fskills.removeClass("fas fa-minus");
         fskills.addClass("fas fa-plus");
-        $("#f-skill1").fadeOut(7000);
-        $("#f-skill2").fadeOut(6000);
-        $("#f-skill3").fadeOut(5000);
-        $("#f-skill4").fadeOut(4000);
-        $("#f-skill5").fadeOut(3000);
-        $("#f-skill6").fadeOut(2000);
-        $("#f-skill7").fadeOut(1000);
+        $("#f-skill1").fadeOut(3500);
+        $("#f-skill2").fadeOut(3000);
+        $("#f-skill3").fadeOut(2500);
+        $("#f-skill4").fadeOut(2000);
+        $("#f-skill5").fadeOut(1500);
+        $("#f-skill6").fadeOut(1000);
+        $("#f-skill7").fadeOut(500);
     }
 });
 
@@ -139,19 +139,19 @@ bskills.click(function(){
     if(classAttr === "fas fa-plus"){
         bskills.removeClass("fas fa-plus");
         bskills.addClass("fas fa-minus");
-        $("#b-skill1").fadeIn(1000);
-        $("#b-skill2").fadeIn(2000);
-        $("#b-skill3").fadeIn(3000);
-        $("#b-skill4").fadeIn(4000);
+        $("#b-skill1").fadeIn(500);
+        $("#b-skill2").fadeIn(1000);
+        $("#b-skill3").fadeIn(1500);
+        $("#b-skill4").fadeIn(2000);
     }
 
     if(classAttr === "fas fa-minus"){
         bskills.removeClass("fas fa-minus");
         bskills.addClass("fas fa-plus");
-        $("#b-skill1").fadeOut(4000);
-        $("#b-skill2").fadeOut(3000);
-        $("#b-skill3").fadeOut(2000);
-        $("#b-skill4").fadeOut(1000);
+        $("#b-skill1").fadeOut(2000);
+        $("#b-skill2").fadeOut(1500);
+        $("#b-skill3").fadeOut(1000);
+        $("#b-skill4").fadeOut(500);
     }
 });
 
@@ -160,16 +160,16 @@ dskills.click(function(){
     if(classAttr === "fas fa-plus"){
         dskills.removeClass("fas fa-plus");
         dskills.addClass("fas fa-minus");
-        $("#d-skill1").fadeIn(1000);
-        $("#d-skill2").fadeIn(2000);
-        $("#d-skill3").fadeIn(3000);
+        $("#d-skill1").fadeIn(500);
+        $("#d-skill2").fadeIn(1000);
+        $("#d-skill3").fadeIn(1500);
     }
     if(classAttr === "fas fa-minus"){
         dskills.removeClass("fas fa-minus");
         dskills.addClass("fas fa-plus");
-        $("#d-skill1").fadeOut(3000);
-        $("#d-skill2").fadeOut(2000);
-        $("#d-skill3").fadeOut(1000);
+        $("#d-skill1").fadeOut(1500);
+        $("#d-skill2").fadeOut(1000);
+        $("#d-skill3").fadeOut(500);
     }
 });
 
@@ -178,23 +178,23 @@ oskills.click(function(){
     if(classAttr === "fas fa-plus"){
         oskills.removeClass("fas fa-plus");
         oskills.addClass("fas fa-minus");
-        $("#o-skill1").fadeIn(1000);
-        $("#o-skill2").fadeIn(2000);
-        $("#o-skill3").fadeIn(3000);
-        $("#o-skill4").fadeIn(4000);
-        $("#o-skill5").fadeIn(5000);
-        $("#o-skill6").fadeIn(6000);
+        $("#o-skill1").fadeIn(500);
+        $("#o-skill2").fadeIn(1000);
+        $("#o-skill3").fadeIn(1500);
+        $("#o-skill4").fadeIn(2000);
+        $("#o-skill5").fadeIn(2500);
+        $("#o-skill6").fadeIn(3000);
     }
 
     if(classAttr === "fas fa-minus"){
         oskills.removeClass("fas fa-minus");
         oskills.addClass("fas fa-plus");
-        $("#o-skill1").fadeOut(6000);
-        $("#o-skill2").fadeOut(5000);
-        $("#o-skill3").fadeOut(4000);
-        $("#o-skill4").fadeOut(3000);
-        $("#o-skill5").fadeOut(2000);
-        $("#o-skill6").fadeOut(1000);
+        $("#o-skill1").fadeOut(3000);
+        $("#o-skill2").fadeOut(2500);
+        $("#o-skill3").fadeOut(2000);
+        $("#o-skill4").fadeOut(1500);
+        $("#o-skill5").fadeOut(1000);
+        $("#o-skill6").fadeOut(500);
 
     }
 });
